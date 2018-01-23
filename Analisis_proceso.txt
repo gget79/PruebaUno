@@ -12,7 +12,7 @@ DESVENTAJAS
 
 nvbn2401
 
----------------------------------------------------------------------------------------------------------------------------------------------
+ULTIMA LINEA AGREGADA
 
 2. DISEÑO FUNCIONAL Y REVISION DE ARQUITECTURA MUY PESADA EN DESARROLLOS E INTERFACES COMPLEJAS
 POSIBLES PLANES DE ACCION
