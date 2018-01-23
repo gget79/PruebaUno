@@ -1,82 +1,85 @@
 1. SE INVOLUCRA MUY TARDE AL ARQUITECTO (INCLUIR EN FASES MAS TEMPRANAS AL ARQUITECTO )
 POSIBLES PLANES DE ACCION
-- Que el Gerente de proyecto confirme cronogramas y fechas de las fases de relavamiento y/o elaboraciÛn DF para pre - asignar el tiempo de arquitecto. Tomando en cuenta que el rol de arquitecto es uno por proyecto y seguramente los consultores son de varios, uno por cada mÛdulo.
-- El relevamiento deber·n realizar los consultores o los lideres funcionales???
+- Que el Gerente de proyecto confirme cronogramas y fechas de las fases de relavamiento y/o elaboraci√≥n DF para pre - asignar el tiempo de arquitecto. Tomando en cuenta que el rol de arquitecto es uno por proyecto y seguramente los consultores son de varios, uno por cada m√≥dulo.
+- El relevamiento deber√°n realizar los consultores o los lideres funcionales???
 - Que el arquitecto entregue el desarrollo al desarrollador asignado para llevar a cabo la tarea.
 
 VENTAJAS
-Que los diseÒos salgan m·s pulidos y evitar menos ciclos de reproceso del documento
+Que los dise√±os salgan m√°s pulidos y evitar menos ciclos de reproceso del documento
 
 DESVENTAJAS
-- En proyectos concurrentes existirÌa un excesiva demanda de este rol y probablemente se vuelva un cuello de botella. SoluciÛn preparar m·s personas??? .. Para ser arquitecto no solo se necesita aptitudes (conocimiento tÈcnico), sino tambiÈn gusto por ese rol y la habilidad de ver las cosas de forma macro a fin de tratar de encaminar los desarrollos por  consistente.
+- En proyectos concurrentes existir√≠a un excesiva demanda de este rol y probablemente se vuelva un cuello de botella. Soluci√≥n preparar m√°s personas??? .. Para ser arquitecto no solo se necesita aptitudes (conocimiento t√©cnico), sino tambi√©n gusto por ese rol y la habilidad de ver las cosas de forma macro a fin de tratar de encaminar los desarrollos por  consistente.
 
 nvbn2401
 
 ULTIMA LINEA AGREGADA
 
-2. DISE—O FUNCIONAL Y REVISION DE ARQUITECTURA MUY PESADA EN DESARROLLOS E INTERFACES COMPLEJAS
+2. DISE√ëO FUNCIONAL Y REVISION DE ARQUITECTURA MUY PESADA EN DESARROLLOS E INTERFACES COMPLEJAS
 POSIBLES PLANES DE ACCION
 - Funcionales o lideres de servicios con aptitudes y actitudes necesarias para plasmar lo suficiente y necesario en el documento.
 - Retirar funcionalidad actual.???
-- Dividir los desarrollos en diseÒos funcionales que no sobrepasen las dos semanas de trabajo.???
+- Dividir los desarrollos en dise√±os funcionales que no sobrepasen las dos semanas de trabajo.???
 
 VENTAJAS
-- Que el tiempo de diseÒo ser· m·s ligero
-- Las cuotas de fases de diseÒo se podr·n facturar con m·s agilidad.
-- Es recomendable y menos costoso corregir pequeÒos problemas cada pocas horas que enfrentarse a problemas enormes cerca de la fecha de entrega fijada.
+- Que el tiempo de dise√±o ser√° m√°s ligero
+- Las cuotas de fases de dise√±o se podr√°n facturar con m√°s agilidad.
+- Es recomendable y menos costoso corregir peque√±os problemas cada pocas horas que enfrentarse a problemas enormes cerca de la fecha de entrega fijada.
 
 DESVENTAJAS
-- Tomando en cuenta la magnitud actual de los DFs se siguen quedando por fuera temas que afectan a la programaciÛn, utilizando un esquema m·s ligero aumenta el riesgo de que se omitan detalles que puedan cambiar considerablemente el alcance de los trabajos,  se disparen los tiempos y por consecuencia el costo de las personalizaciones se vea afectado y no sea recuperable puesto que no hay un alcance suficientemente granular para poder discutir la situaciÛn y plantear alcances. (CRL-037 (ESCENARIO INTERCOMPANY), CRP-034-1 (OMISION DE INDICAR QUE PARA EL REPORTE DEL DIARIO NO DEBE CONTENER LA MISMA LOGICA DE EXTRACCI”N Y CONSIDERACIONES QUE EL DESARROLLO ORIGINAL), CRF-018(UNA VEZ YA FINALIZADO EL DESARROLLO Y LISTO PARA PRUEBAS FUNCIONALES SALEN CONSIDERACIONES EN REUNION FUERA DE ALCANCE QUE DEBEMOS CUMPLIR), CRP-025-1 (SE LE ESCAPO A FERNANDO EL CALCULO DE UN TOTAL QUE ERA DE LA CUSTOMIZACION ORIGINAL), CRP-013-2(SE LE OLVIDO COLOCAR CIERTOS CAMPOS A BLOQUEAR))
+- Tomando en cuenta la magnitud actual de los DFs se siguen quedando por fuera temas que afectan a la programaci√≥n, utilizando un esquema m√°s ligero aumenta el riesgo de que se omitan detalles que puedan cambiar considerablemente el alcance de los trabajos,  se disparen los tiempos y por consecuencia el costo de las personalizaciones se vea afectado y no sea recuperable puesto que no hay un alcance suficientemente granular para poder discutir la situaci√≥n y plantear alcances. (CRL-037 (ESCENARIO INTERCOMPANY), CRP-034-1 (OMISION DE INDICAR QUE PARA EL REPORTE DEL DIARIO NO DEBE CONTENER LA MISMA LOGICA DE EXTRACCI√ìN Y CONSIDERACIONES QUE EL DESARROLLO ORIGINAL), CRF-018(UNA VEZ YA FINALIZADO EL DESARROLLO Y LISTO PARA PRUEBAS FUNCIONALES SALEN CONSIDERACIONES EN REUNION FUERA DE ALCANCE QUE DEBEMOS CUMPLIR), CRP-025-1 (SE LE ESCAPO A FERNANDO EL CALCULO DE UN TOTAL QUE ERA DE LA CUSTOMIZACION ORIGINAL), CRP-013-2(SE LE OLVIDO COLOCAR CIERTOS CAMPOS A BLOQUEAR))
 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-3. EL DESARROLLO NO SALE CON LAS SUFICIENTES PRUEBAS HACIA LAS FASES DE PRUEBAS FUNCIONALES, EN LA MAYORIA DE LOS CASOS PARA EN CUSTOMIZACIONES COMPLEJAS ES POR FALTA DE UN  - NUMERO MÕNIMO DE ESCENARIOS DE PRUEBAS PARA PODER CONSUMIR. - CRP-017-* (SE RECLAMA QUE "SE DIERON EL LUJO" DE DESARROLLAR CON FUNCIONAL A BORDO SIN ENTENDER QUE FERNANDO NUNCA PUEDE DARNOS UN TIEMPO SIN CONSULTAR CON SUSANA PARA PREPARAR LOS DATOS NECESARIOS).
+3. EL DESARROLLO NO SALE CON LAS SUFICIENTES PRUEBAS HACIA LAS FASES DE PRUEBAS FUNCIONALES, EN LA MAYORIA DE LOS CASOS PARA EN CUSTOMIZACIONES COMPLEJAS ES POR FALTA DE UN  - NUMERO M√çNIMO DE ESCENARIOS DE PRUEBAS PARA PODER CONSUMIR. - CRP-017-* (SE RECLAMA QUE "SE DIERON EL LUJO" DE DESARROLLAR CON FUNCIONAL A BORDO SIN ENTENDER QUE FERNANDO NUNCA PUEDE DARNOS UN TIEMPO SIN CONSULTAR CON SUSANA PARA PREPARAR LOS DATOS NECESARIOS).
 
 POSIBLES PLANES DE ACCION
-- Coordinar con los gerentes de proyectos para que se asignen tiempos necesarios y suficientes para elaborar los sets necesarios de pruebas tomando en cuenta la segunda desventaja descrita. Tomar en cuenta que cu·ndo desarrollo solicita tiempo funcional es complicado conseguirlo pero para cu·ndo se requiere tiempos de desarrolladores se debe cambiar de prioridades sin importar compromisos pre - establecidos.
+- Coordinar con los gerentes de proyectos para que se asignen tiempos necesarios y suficientes para elaborar los sets necesarios de pruebas tomando en cuenta la segunda desventaja descrita. Tomar en cuenta que cu√°ndo desarrollo solicita tiempo funcional es complicado conseguirlo pero para cu√°ndo se requiere tiempos de desarrolladores se debe cambiar de prioridades sin importar compromisos pre - establecidos.
 
 VENTAJAS
-- Se podr·n probar todos y cada uno de los escenarios que funcional intentar· correr en sus validaciones funcionales.
-- Tratando de preparar un desarrollo basado en pruebas seguramente el funcional se de cuenta de detalles que se le est·n escapando en los diseÒos funcionales.
+- Se podr√°n probar todos y cada uno de los escenarios que funcional intentar√° correr en sus validaciones funcionales.
+- Tratando de preparar un desarrollo basado en pruebas seguramente el funcional se de cuenta de detalles que se le est√°n escapando en los dise√±os funcionales.
 
 DESVENTAJAS
-- Se necesitar· tiempos adicionales de los especialistas para pre - elaborar corridas con set de datos.
-- Siendo ambientes de desarrollo alguna otra persona del equipo podrÌa consumir los datos.
+- Se necesitar√° tiempos adicionales de los especialistas para pre - elaborar corridas con set de datos.
+- Siendo ambientes de desarrollo alguna otra persona del equipo podr√≠a consumir los datos.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 4. EN MENOS CANTIDAD SALE EL DESARROLLO DE PRUEBAS FUNCIONALES HACIA PRUEBAS DE CLIENTE Y EN LA ENTREGA SALEN REQUERIMIENTOS NUEVOS
 POSIBLES PLANES DE ACCION
-- Que el funcional prepare los set de datos de pruebas junto con el usuario que va a recibir la personalizaciÛn.
+- Que el funcional prepare los set de datos de pruebas junto con el usuario que va a recibir la personalizaci√≥n.
 
 VENTAJAS
-- El usuario que va recibir el desarrollo tendr· la expectativa m·s aterrizada puesto que con el se elaboraron escenarios de pruebas.
+- El usuario que va recibir el desarrollo tendr√° la expectativa m√°s aterrizada puesto que con el se elaboraron escenarios de pruebas.
 
 DESVENTAJAS
-- Se necesitar· tiempo adicional de un usuario que seguramente no estÈ del todo capacitado para disernir escenarios de pruebas.
+- Se necesitar√° tiempo adicional de un usuario que seguramente no est√© del todo capacitado para disernir escenarios de pruebas.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 4. SE TOPA UN DESARROLLO Y SE OBTIENE COMPORTAMIENTOS NO DESEADOS EN OTROS DESARROLLOS
 POSIBLES PLANES DE ACCION
-- Que se planteen pruebas de regresiÛn para garantizar que no ocurra.
+- Que se planteen pruebas de regresi√≥n para garantizar que no ocurra.
 - Encapsular la fase de desarrollo solo para desarrollo y no hacer entregas parciales.
-- Junto con la liberaciÛn el desarrollador tiene que pasar un cuadro de impacto para que se revisen las otras funcionalidades.
+- Junto con la liberaci√≥n el desarrollador tiene que pasar un cuadro de impacto para que se revisen las otras funcionalidades.
 
 VENTAJAS
-- Se tendr· un ambiente m·s estable.
+- Se tendr√° un ambiente m√°s estable.
 
 DESVENTAJAS
-- Se necesitar· tiempo adicional del o los consultor funcionales para realizar ciclos de pruebas de regresiÛn.
+- Se necesitar√° tiempo adicional del o los consultor funcionales para realizar ciclos de pruebas de regresi√≥n.
 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 PREGUNTAS GENERALES
-1. QuÈ rol jugar· el lider funcional de Novatech en cada requerimiento nuevo?
-2. QuÈ rol jugar· el Gerente de Proyecto de Novatech en cada requerimiento nuevo?
-3. Es suficiente con el rol que actualmente juega el gerente de proyecto del cliente con relaciÛn a los requerimientos, es decir solo se limira a dar el GO para iniciar el desarrollo?
+1. Qu√© rol jugar√° el lider funcional de Novatech en cada requerimiento nuevo?
+2. Qu√© rol jugar√° el Gerente de Proyecto de Novatech en cada requerimiento nuevo?
+3. Es suficiente con el rol que actualmente juega el gerente de proyecto del cliente con relaci√≥n a los requerimientos, es decir solo se limira a dar el GO para iniciar el desarrollo?
 4. Si utilizamos desarrollo basado en pruebas
 	4.1 Es posible para funcionalidad que se desarrolle desde 0
-	4.2 Cu·l serÌa el hito de entrega para firmar la fase de diseÒo
+	4.2 Cu√°l ser√≠a el hito de entrega para firmar la fase de dise√±o
 5. Cobrar 50% al inicio del desarrollo y 50% al cierre.
+
+
+VERSION MODIFICADA EN GITHUBWEB
