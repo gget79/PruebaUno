@@ -1,0 +1,82 @@
+1. SE INVOLUCRA MUY TARDE AL ARQUITECTO (INCLUIR EN FASES MAS TEMPRANAS AL ARQUITECTO )
+POSIBLES PLANES DE ACCION
+- Que el Gerente de proyecto confirme cronogramas y fechas de las fases de relavamiento y/o elaboración DF para pre - asignar el tiempo de arquitecto. Tomando en cuenta que el rol de arquitecto es uno por proyecto y seguramente los consultores son de varios, uno por cada módulo.
+- El relevamiento deberán realizar los consultores o los lideres funcionales???
+- Que el arquitecto entregue el desarrollo al desarrollador asignado para llevar a cabo la tarea.
+
+VENTAJAS
+Que los diseños salgan más pulidos y evitar menos ciclos de reproceso del documento
+
+DESVENTAJAS
+- En proyectos concurrentes existiría un excesiva demanda de este rol y probablemente se vuelva un cuello de botella. Solución preparar más personas??? .. Para ser arquitecto no solo se necesita aptitudes (conocimiento técnico), sino también gusto por ese rol y la habilidad de ver las cosas de forma macro a fin de tratar de encaminar los desarrollos por  consistente.
+
+nvbn2401
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+2. DISEÑO FUNCIONAL Y REVISION DE ARQUITECTURA MUY PESADA EN DESARROLLOS E INTERFACES COMPLEJAS
+POSIBLES PLANES DE ACCION
+- Funcionales o lideres de servicios con aptitudes y actitudes necesarias para plasmar lo suficiente y necesario en el documento.
+- Retirar funcionalidad actual.???
+- Dividir los desarrollos en diseños funcionales que no sobrepasen las dos semanas de trabajo.???
+
+VENTAJAS
+- Que el tiempo de diseño será más ligero
+- Las cuotas de fases de diseño se podrán facturar con más agilidad.
+- Es recomendable y menos costoso corregir pequeños problemas cada pocas horas que enfrentarse a problemas enormes cerca de la fecha de entrega fijada.
+
+DESVENTAJAS
+- Tomando en cuenta la magnitud actual de los DFs se siguen quedando por fuera temas que afectan a la programación, utilizando un esquema más ligero aumenta el riesgo de que se omitan detalles que puedan cambiar considerablemente el alcance de los trabajos,  se disparen los tiempos y por consecuencia el costo de las personalizaciones se vea afectado y no sea recuperable puesto que no hay un alcance suficientemente granular para poder discutir la situación y plantear alcances. (CRL-037 (ESCENARIO INTERCOMPANY), CRP-034-1 (OMISION DE INDICAR QUE PARA EL REPORTE DEL DIARIO NO DEBE CONTENER LA MISMA LOGICA DE EXTRACCIÓN Y CONSIDERACIONES QUE EL DESARROLLO ORIGINAL), CRF-018(UNA VEZ YA FINALIZADO EL DESARROLLO Y LISTO PARA PRUEBAS FUNCIONALES SALEN CONSIDERACIONES EN REUNION FUERA DE ALCANCE QUE DEBEMOS CUMPLIR), CRP-025-1 (SE LE ESCAPO A FERNANDO EL CALCULO DE UN TOTAL QUE ERA DE LA CUSTOMIZACION ORIGINAL), CRP-013-2(SE LE OLVIDO COLOCAR CIERTOS CAMPOS A BLOQUEAR))
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+3. EL DESARROLLO NO SALE CON LAS SUFICIENTES PRUEBAS HACIA LAS FASES DE PRUEBAS FUNCIONALES, EN LA MAYORIA DE LOS CASOS PARA EN CUSTOMIZACIONES COMPLEJAS ES POR FALTA DE UN  - NUMERO MÍNIMO DE ESCENARIOS DE PRUEBAS PARA PODER CONSUMIR. - CRP-017-* (SE RECLAMA QUE "SE DIERON EL LUJO" DE DESARROLLAR CON FUNCIONAL A BORDO SIN ENTENDER QUE FERNANDO NUNCA PUEDE DARNOS UN TIEMPO SIN CONSULTAR CON SUSANA PARA PREPARAR LOS DATOS NECESARIOS).
+
+POSIBLES PLANES DE ACCION
+- Coordinar con los gerentes de proyectos para que se asignen tiempos necesarios y suficientes para elaborar los sets necesarios de pruebas tomando en cuenta la segunda desventaja descrita. Tomar en cuenta que cuándo desarrollo solicita tiempo funcional es complicado conseguirlo pero para cuándo se requiere tiempos de desarrolladores se debe cambiar de prioridades sin importar compromisos pre - establecidos.
+
+VENTAJAS
+- Se podrán probar todos y cada uno de los escenarios que funcional intentará correr en sus validaciones funcionales.
+- Tratando de preparar un desarrollo basado en pruebas seguramente el funcional se de cuenta de detalles que se le están escapando en los diseños funcionales.
+
+DESVENTAJAS
+- Se necesitará tiempos adicionales de los especialistas para pre - elaborar corridas con set de datos.
+- Siendo ambientes de desarrollo alguna otra persona del equipo podría consumir los datos.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+4. EN MENOS CANTIDAD SALE EL DESARROLLO DE PRUEBAS FUNCIONALES HACIA PRUEBAS DE CLIENTE Y EN LA ENTREGA SALEN REQUERIMIENTOS NUEVOS
+POSIBLES PLANES DE ACCION
+- Que el funcional prepare los set de datos de pruebas junto con el usuario que va a recibir la personalización.
+
+VENTAJAS
+- El usuario que va recibir el desarrollo tendrá la expectativa más aterrizada puesto que con el se elaboraron escenarios de pruebas.
+
+DESVENTAJAS
+- Se necesitará tiempo adicional de un usuario que seguramente no esté del todo capacitado para disernir escenarios de pruebas.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+4. SE TOPA UN DESARROLLO Y SE OBTIENE COMPORTAMIENTOS NO DESEADOS EN OTROS DESARROLLOS
+POSIBLES PLANES DE ACCION
+- Que se planteen pruebas de regresión para garantizar que no ocurra.
+- Encapsular la fase de desarrollo solo para desarrollo y no hacer entregas parciales.
+- Junto con la liberación el desarrollador tiene que pasar un cuadro de impacto para que se revisen las otras funcionalidades.
+
+VENTAJAS
+- Se tendrá un ambiente más estable.
+
+DESVENTAJAS
+- Se necesitará tiempo adicional del o los consultor funcionales para realizar ciclos de pruebas de regresión.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+PREGUNTAS GENERALES
+1. Qué rol jugará el lider funcional de Novatech en cada requerimiento nuevo?
+2. Qué rol jugará el Gerente de Proyecto de Novatech en cada requerimiento nuevo?
+3. Es suficiente con el rol que actualmente juega el gerente de proyecto del cliente con relación a los requerimientos, es decir solo se limira a dar el GO para iniciar el desarrollo?
+4. Si utilizamos desarrollo basado en pruebas
+	4.1 Es posible para funcionalidad que se desarrolle desde 0
+	4.2 Cuál sería el hito de entrega para firmar la fase de diseño
+5. Cobrar 50% al inicio del desarrollo y 50% al cierre.
